@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Reg-Form</title>
+   <link rel="stylesheet" href="regform.css">
+</head>
+
+<ul class="nav-bar">
+  <a href="" class="navLink animate animate--delay-1">Home</a></li>
+  <a href="#news" class="navLink animate animate--delay-2">News</a></li>
+  <a href="#contact"class="navLink animate animate--delay-3">Contact</a></li>
+  <a href="#about" class="navLink animate animate--delay-4">About</a></li>
+  <button type="button" class="log-out animate animate--delay-4">LOG-OUT</button><br><br>
+</ul>
+
+
+<ul class="list-image">
+<img src="syl.jpg" alt="" class="profile animate animate--delay-1" height="70px" width="70px">
+<img src="nel.jpg" alt="" class="profile animate animate--delay-2" height="70px" width="70px">
+<img src="prince.jpg" alt="" class="profile animate animate--delay-3" height="70px" width="70px">
+<img src="wakin.jpg" alt="" class="profile animate animate--delay-4" height="70px" width="70px">
+<img src="lemon.png" alt="" class="profile animate animate--delay-5" height="70px" width="70px">
+</ul>
+
+<ul class="list-name">
+<p class="fade1 animate animate--delay-1"></p>
+<p class="fade2 animate animate--delay-2"></p>
+<p class="fade3 animate animate--delay-3"></p>
+<p class="fade4 animate animate--delay-4"></p>
+<p class="fade5 animate animate--delay-5"></p>
+</ul>
+
+<body>
+
+
+
+<div class="form-container ">
+
+<form form action="" method="post">
+    <br><br>
+    <h1>Create Account</h1>
+  <input type="text" name="stud_num" required placeholder="Student Number" class="input animate animate--delay-1">  <br><br>
+
+  <input type="text" name="name" required placeholder="Name" class="input animate animate--delay-1"> <br><br>
+
+  <div data-role="main" class="ui-content animate animate--delay-1">
+    <form method="post" action="/action_page_post.php">
+      <legend>Choose your gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      <br><br>
+
+  <input type="date" id="birthday" name="birthday" placeholder="Birthdate" class="input animate animate--delay-2" required><br><br>
+
+  <select  name="courselist" form="" required placeholder="Course" class="input animate animate--delay-2">
+    <option>Course</option>
+    <option>Bachelor of Science in Information Technology </option>
+    </select><br><br>
+
+  <input type="email" id="email" name="Email" placeholder="Email" class="input animate animate--delay-3" required><br><br>
+
+  <input type="text"  id="" name="Username"placeholder="Username" class="input animate animate--delay-3" required><br><br>
+
+  <input type="password" id="password" name="Passwrod" placeholder="Password" class="input animate animate--delay-4" required><br><br><br>
+
+  <button type="submit"  value="" class="add animate animate--delay-4">Add</button><br><br>
+  <button type="submit"  value="" class="update animate animate--delay-4">Update</button>
+
+
+</form> 
+
+</div>
+   
+
+</body>
+
+
+
+</html>
